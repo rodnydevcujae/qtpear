@@ -1,0 +1,24 @@
+{
+  "name": "qtpear",
+  "version": "0.0.1",
+  "description": "Herramientas para el transpilado de proyectos por consola de QT",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack",
+    "dev": "MODE=development webpack"
+  },
+  "author": "Rodny Estrada <rrodnyestrada1@gmail.com>",
+  "bin": {
+    "qtpear": "./bin/run.js"
+  },
+  "devDependencies": {
+    "@clack/prompts": "^0.9.1",
+    "@types/commander": "^2.12.0",
+    "@types/node": "^18.19.75",
+    "commander": "^13.1.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "~5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
