@@ -7,9 +7,20 @@
     "build": "webpack",
     "dev": "MODE=development webpack"
   },
-  "author": "Rodny Estrada <rrodnyestrada1@gmail.com>",
   "bin": {
     "qtpear": "./bin/run.js"
+  },
+  "files": [
+    "dist/",
+    "bin/"
+  ],
+  "author": "Rodny Estrada <rrodnyestrada1@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodnydevcujae/qtpear.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodnydevcujae/qtpear/issues"
   },
   "devDependencies": {
     "@clack/prompts": "^0.9.1",
