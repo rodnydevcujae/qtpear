@@ -1,9 +1,12 @@
 
-<center>
+<div align=center>
   <img alt="Logo QT Pear" src="https://i.imgur.com/pVWda16.png" width="200"/>
-</center>
+  
+  <h1> < QT Pear > </h1>
+</div>
 
-# QT Pear
+
+[![NPM Package](https://github.com/rodnydevcujae/qtpear/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/rodnydevcujae/qtpear/actions/workflows/npm-publish.yml)
 > en desarrollo... 🍐
 
 Algunas herramientas por línea de comandos para transpilar proyectos en QT 
