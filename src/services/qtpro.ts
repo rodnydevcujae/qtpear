@@ -1,7 +1,7 @@
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "fs";
 import { isDir } from "../utils/files";
 import path from "path";
-import templatePro from "../templates/template.pro";
+import templatePro from "../templates/template_pro";
 import { convertToAST, convertToProFile } from "../utils/ast_pro";
 
 /**

@@ -4,7 +4,7 @@ import { Command } from 'commander'
 import { intro, log, outro, tasks } from '@clack/prompts';
 import { createProFile, getProPath, updateProSources } from '../../services/qtpro';
 
-export const proAutoCommand = () => {
+export const makeProAutoCommand = () => {
   const program = new Command('auto');
 
   program
@@ -24,7 +24,7 @@ export const proAutoCommand = () => {
         proPath = createProFile(folder);
       }
       
-      intro('< QtPear AutoPro >');
+      intro('< Qtpear Autogenerar Pro >');
       log.info(`Actualizando ${path.basename(proPath)} ...`);
       await tasks([
         {
@@ -35,6 +35,8 @@ export const proAutoCommand = () => {
           },
         },
       ]);
+
+      outro();
     });
 
   return program;

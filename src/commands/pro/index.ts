@@ -1,12 +1,12 @@
 import { Command } from "commander"
-import { proAutoCommand } from "./auto";
+import { makeProAutoCommand } from "./auto";
 
-export const proCommand = () => {
+export const makeProCommand = () => {
   const program = new Command("pro");
 
   program
     .description("Procesa el archivo de proyecto (*.pro)")
-    .addCommand(proAutoCommand())
+    .addCommand(makeProAutoCommand())
 
   return program;
 }

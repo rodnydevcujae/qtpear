@@ -1,7 +1,8 @@
 import pkg from "../package.json";
 import { Command } from "commander";
-import { parseCommand } from "./commands/parse";
-import { proCommand } from "./commands/pro";
+import { makeParseCommand } from "./commands/parse";
+import { makeProCommand } from "./commands/pro";
+import { makeCreateCommand } from "./commands/create";
 
 const program = new Command();
 
@@ -10,8 +11,9 @@ program
   .version(pkg.version)
   .description(pkg.description);
 
-program.addCommand(parseCommand());
-program.addCommand(proCommand());
+program.addCommand(makeParseCommand());
+program.addCommand(makeProCommand());
+program.addCommand(makeCreateCommand());
 
 program.parse();
 
