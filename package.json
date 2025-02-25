@@ -5,10 +5,11 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "webpack",
-    "dev": "MODE=development webpack"
+    "dev": "MODE=development webpack",
+    "prepublishOnly": "npm run build"
   },
   "bin": {
-    "qtpear": "./bin/run.js"
+    "qtpear": "bin/run.js"
   },
   "files": [
     "dist/",
