@@ -1,6 +1,6 @@
 {
   "name": "qtpear",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "description": "Herramientas para el transpilado de proyectos por consola de QT",
   "main": "src/index.ts",
   "scripts": {
@@ -22,6 +22,7 @@
   "bugs": {
     "url": "https://github.com/rodnydevcujae/qtpear/issues"
   },
+  "license": "MIT",
   "devDependencies": {
     "@clack/prompts": "^0.9.1",
     "@types/commander": "^2.12.0",
