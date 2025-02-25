@@ -1,0 +1,15 @@
+{
+  "id": "logic-en",
+  "info": "Archivos 'logic' e 'interface'",
+  "structure": [
+    ["main.c", "\n#include \"Logic/logic.h\"\n#include \"Interface/interface.h\"\n\nint main() {\n\t// Plantilla de Lógica e Interface\n\tint n1, n2, result;\n\n\tn1 = getNumber();\n\tn2 = getNumber();\n\tresult = sum(n1, n2);\n\tdisplaySum(result);\n\n\treturn 0;\n}"],
+    ["Logic", [
+      ["logic.c", "\n#include \"logic.h\"\n\nint sum(int a, int b) {\n\treturn a + b;\n}"],
+      ["logic.h", "\nint sum(int a, int b);"]
+    ]],
+    ["Interface", [
+      ["interface.c", "\n#include \"interface.h\"\n\nint getNumber() {\n\tint n;\n\n\tprintf(\"Escriba un numero: \");\n\tscanf(\"%d\", &n);\n\treturn n;\n}\n\nvoid displaySum(int result) {\n\tprintf(\"El resultado es: %d\", result);\n}"],
+      ["interface.h", "\n#include <stdio.h>\n\nint getNumber();\nvoid displaySum(int result);"]
+    ]]
+  ]
+}

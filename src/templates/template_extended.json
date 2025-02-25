@@ -1,0 +1,19 @@
+{
+  "id": "extended",
+  "info": "Archivos 'logica', 'entradas', 'salidas' y 'utils'",
+  "structure": [
+    ["main.c", "\n#include \"Logica/logica.h\"\n#include \"Interfaz/entrada.h\"\n#include \"Interfaz/salida.h\"\n\nint main() {\n\t// Plantilla de Lógica e Interfaz extendida\n\tint n1, n2, suma;\n\n\tn1 = pedirNumero();\n\tn2 = pedirNumero();\n\tsuma = sumar(n1, n2);\n\tmostrarSuma(suma);\n\n\treturn 0;\n}"],
+    ["Logica", [
+      ["logica.c", "\n#include \"logica.h\"\n\nint sumar(int a, int b) {\n\treturn a + b;\n}"],
+      ["logica.h", "\nint sumar(int a, int b);"],
+      ["utils.c", "\n#include \"utils.h\""],
+      ["utils.h", "\n"]
+    ]],
+    ["Interfaz", [
+      ["entrada.c", "\n#include \"entrada.h\"\n\nint pedirNumero() {\n\tint n;\n\n\tprintf(\"Escriba un numero: \");\n\tscanf(\"%d\", &n);\n\treturn n;\n}"],
+      ["entrada.h", "\n#include <stdio.h>\n\nint pedirNumero();"],
+      ["salida.c", "\n#include \"salida.h\"\n\nvoid mostrarSuma(int suma) {\n\tprintf(\"El resultado es: %d\", suma);\n}"],
+      ["salida.h", "\n#include <stdio.h>\n\nvoid mostrarSuma(int suma);"]
+    ]]
+  ]
+}

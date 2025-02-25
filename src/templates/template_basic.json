@@ -1,0 +1,7 @@
+{
+  "id": "basic",
+  "info": "Plantilla mínima con un main.c",
+  "structure": [
+    ["main.c", "\n#include <stdio.h>\n\nint main() {\n\t// Basic template\n\tprintf(\"Hola desde QTPear!\");\n\treturn 0;\n}"]
+  ]
+}
