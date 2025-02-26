@@ -2,7 +2,6 @@
   "name": "qtpear",
   "version": "0.1.2",
   "description": "Herramientas para el transpilado de proyectos por consola de QT",
-  "main": "src/index.ts",
   "scripts": {
     "build": "webpack",
     "dev": "MODE=development webpack",

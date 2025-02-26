@@ -5,7 +5,7 @@ import template_extended from "../templates/template_extended.json"
 import template_extendedEn from "../templates/template_extended-en.json"
 import { mkdirSync, writeFileSync } from "fs"
 import path from "path"
-import { createProFile, updateProSources } from "./qtpro"
+import { createProFile, updateProSources } from "./pro"
 
 export const templates = {
   "basic": template_basic,

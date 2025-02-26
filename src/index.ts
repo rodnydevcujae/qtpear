@@ -1,7 +1,7 @@
 import pkg from "../package.json";
 import { Command } from "commander";
 import { makeParseCommand } from "./commands/parse";
-import { makeProCommand } from "./commands/pro";
+import { makeAutoCommand } from "./commands/auto";
 import { makeCreateCommand } from "./commands/create";
 
 const program = new Command();
@@ -12,7 +12,7 @@ program
   .description(pkg.description);
 
 program.addCommand(makeParseCommand());
-program.addCommand(makeProCommand());
+program.addCommand(makeAutoCommand());
 program.addCommand(makeCreateCommand());
 
 program.parse();

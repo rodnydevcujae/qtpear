@@ -3,7 +3,7 @@ import path from "path";
 import { Command } from "commander"
 import { transpileFolder } from "../services/transpile";
 import { intro, log, outro, tasks } from "@clack/prompts";
-import { getProPath } from "../services/qtpro";
+import { getProPath } from "../services/pro";
 
 export const makeParseCommand = () => {
   const program = new Command();

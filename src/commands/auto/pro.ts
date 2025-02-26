@@ -2,10 +2,10 @@
 import path from 'path';
 import { Command } from 'commander'
 import { intro, log, outro, tasks } from '@clack/prompts';
-import { createProFile, getProPath, updateProSources } from '../../services/qtpro';
+import { createProFile, getProPath, updateProSources } from '../../services/pro';
 
-export const makeProAutoCommand = () => {
-  const program = new Command('auto');
+export const makeAutoProCommand = () => {
+  const program = new Command('pro');
 
   program
     .description('Genera o actualiza automáticamente el *.pro a partir de los archivos *.c y *.h en tu proyecto.')
