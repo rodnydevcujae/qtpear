@@ -12,16 +12,16 @@ QT Pear es un conjunto de herramientas de línea de comandos diseñadas para fac
 Realizado para el cumplimiento de los requisitos de [Introducción a la Programación](https://moodle.cujae.edu.cu/course/info.php?id=895) del curso 2024-2025 en la [CUJAE](https://cujae.edu.cu). 
 
 ## Tabla de contenido 📚
-1. [Instalación](#instalación)
+1. [Instalación](#instalación-️)
 2. [Características](#características)
-   - [Transpilador de caracteres especiales](#1-transpilador-de-caracteres-especiales)
-   - [Creador de proyectos](#2-creador-de-proyectos)
-   - [Auto prototipado](#3-auto-prototipado)
-   - [Auto indexado](#4-auto-indexado)
-3. [¿Por qué usar Qtpear?](#por-qué-usar-qtpear)
-   - [Transpilado de caracteres](#transpilado-de-caracteres)
-   - [Creador de proyectos](#creador-de-proyectos-1)
-   - [Autoprototipado](#auto-prototipado)
+   - [Transpilador de caracteres especiales](#1-transpilador-de-caracteres-especiales-)
+   - [Creador de proyectos](#2-creador-de-proyectos-)
+   - [Auto prototipado](#3-auto-prototipado-)
+   - [Auto indexado](#4-auto-indexado-)
+3. [¿Por qué usar Qtpear?](#por-qué-usar-qtpear-)
+   - [Transpilado de caracteres](#transpilado-de-caracteres-)
+   - [Creador de proyectos](#creador-de-proyectos-)
+   - [Auto prototipado](#auto-prototipado-)
 5. [Licencia](#licencia)
 
 
