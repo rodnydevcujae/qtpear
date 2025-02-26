@@ -1,6 +1,6 @@
 {
   "name": "qtpear",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Herramientas para el transpilado de proyectos por consola de QT",
   "scripts": {
     "build": "webpack",
